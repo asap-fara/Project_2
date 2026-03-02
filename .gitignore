@@ -1,4 +1,10 @@
-.env
-__pycache__/
+# Игнорируем виртуальное окружение
+env/
+venv/
+
+# Игнорируем ноутбуки и рабочие файлы
+.ipynb_checkpoints/
 *.pyc
-*ipynb_checkpoints/
+
+# Секреты
+.env
